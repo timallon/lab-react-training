@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   padding: 5px 0px 5px 0px;
-  width: 50%;
 }
 
 .App-logo {
@@ -47,6 +46,7 @@
   border-style: solid;
   border-color: black;
   border-width: 1px;
+  width: 50%;
 }
 
 .PersonalDetails {
@@ -57,6 +57,16 @@
 }
 
 .Greeting {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 50%;
+}
+
+.Random {
   display: flex;
   margin: 5px;
   padding: 5px;
