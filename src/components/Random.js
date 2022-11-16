@@ -5,7 +5,7 @@ function Random( { min, max } ) {
     randomNumber = Math.floor(Math.random() * max + min )
     
     return (
-        <div className='Random'>Random value between {min} and {max} => {randomNumber}</div>
+        <div className='Random'>Random value between {min} and {max} =`{">"}` {randomNumber}</div>
     )
 };
 

@@ -75,3 +75,13 @@
   border-width: 1px;
   width: 50%;
 }
+
+.Box {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 50%;
+}
